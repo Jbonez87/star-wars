@@ -1,0 +1,9 @@
+<h2 class="text-center">Choose your character</h2>
+
+<ul class="list-group flex-md-row character-group">
+  <li *ngFor="let c of characters" class="list-group-item">
+    <a routerLink="/detail/{{c.name}}" (click)="clearErrors()">
+      {{c.name}}
+    </a>
+  </li>
+</ul>
