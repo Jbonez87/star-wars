@@ -8,13 +8,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CharacterComponent } from './character/character.component';
+import { CharacterDetailComponent } from './character-detail/character-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    CharacterComponent
+    CharacterComponent,
+    CharacterDetailComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
